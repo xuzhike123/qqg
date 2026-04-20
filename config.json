@@ -1,0 +1,21 @@
+{
+  "log": { "level": "info" },
+  "inbounds": [{
+    "type": "vless",
+    "tag": "vless-in",
+    "listen": "::",
+    "listen_port": 8080,
+    "users": [{ "uuid": "2fe75a9e-55bd-4936-a8ab-80b777d7af56" }],
+    "transport": { "type": "ws", "path": "/chat" }
+  }],
+  "outbounds": [{ "type": "direct", "tag": "direct" }]
+}
+
+
+
+
+若有干扰，可在「设置」关闭悬浮球
+
+👋 Hi，想聊点什么～
+输入您的问题... (Enter 发送，Shift+Enter 换行)
+内容由AI生成，仅供参考
